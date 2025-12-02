@@ -20,4 +20,5 @@ starlette
 pydantic
 pydantic-settings
 
+python-multipart
 

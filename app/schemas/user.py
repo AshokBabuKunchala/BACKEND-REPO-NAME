@@ -17,7 +17,7 @@ class UserRead(UserBase):
     role: str
 
     class Config:
-        orm_mode = True  # Important for ORM objects like SQLAlchemy
+        from_attributes = True  # Important for ORM objects like SQLAlchemy
 
 # Model for API response (can be same as UserRead or customized)
 class UserResponse(BaseModel):
@@ -26,8 +26,8 @@ class UserResponse(BaseModel):
     role: str
     is_active: bool
 
-    class Config:
-        orm_mode = True
+class Config:
+        from_attributes = True
 
 # Token models
 class Token(BaseModel):
