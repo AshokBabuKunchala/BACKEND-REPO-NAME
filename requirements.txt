@@ -18,3 +18,6 @@ starlette
 
 # Pydantic (comes with FastAPI but added for safety)
 pydantic
+pydantic-settings
+
+

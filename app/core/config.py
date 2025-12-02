@@ -1,7 +1,3 @@
-# Before (v1)
-# from pydantic import BaseSettings
-
-# After (v2)
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
