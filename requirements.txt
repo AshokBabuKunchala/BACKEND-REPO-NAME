@@ -1,0 +1,20 @@
+fastapi
+uvicorn[standard]
+
+# Database & ORM
+SQLAlchemy>=2.0
+asyncpg
+alembic
+
+# Security / Auth
+python-jose[cryptography]
+passlib[bcrypt]
+
+# Environment Variables
+python-dotenv
+
+# CORS
+starlette
+
+# Pydantic (comes with FastAPI but added for safety)
+pydantic
